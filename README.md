@@ -1,0 +1,1 @@
+# Scouting-Camp-2025
