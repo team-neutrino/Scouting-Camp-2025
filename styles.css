@@ -1,0 +1,34 @@
+button {
+    background-color:rgb(255, 255, 255);
+    border-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    width: 10vw;
+    height: 10vh;
+    font-size: larger;
+}
+
+.buttons {
+    background-color:rgb(113, 214, 180);
+    border-color: rgb(113, 214, 180);
+    color: rgb(5, 85, 85);
+    width: 30vw;
+    height: 10vh;
+    font-size: larger;
+}
+
+#undo {
+    background-color:rgb(214, 113, 113);
+    border-color: rgb(214, 113, 113);
+    color: rgb(85, 5, 5);
+    width: 10vw;
+    height: 10vh;
+    font-size: auto;
+}
+
+p {
+    text-decoration:line-through;
+}
+
+table, th, tr, td {
+    border: 1px solid black;
+}
