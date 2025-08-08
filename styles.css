@@ -1,0 +1,32 @@
+button {
+    color: black;
+    background-color: darkblue;
+    font-size: 2vw;
+    width: 15vw;
+    height: 15vh;
+
+}
+
+.cone {
+    background-color: yellow;
+}
+
+.cube {
+    background-color: purple;
+}
+
+#middleCube {
+    background-color: green;
+}
+
+table,
+th,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    width: 97vw;
+    height: 97vh;
+}
