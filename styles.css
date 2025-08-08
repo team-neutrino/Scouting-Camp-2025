@@ -1,0 +1,30 @@
+button {
+    color: orange;
+    background-color: black;
+    width: 400px;
+    height: 100px;
+}
+
+* {
+    text-align: center;
+}
+
+.cone {
+    color: white;
+    background-color: rgb(73, 73, 73);
+}
+
+#LCone {
+    color: black;
+    background-color: white;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+#Auton {
+    font-size: 5vw;
+}
