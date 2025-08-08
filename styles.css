@@ -1,0 +1,37 @@
+button {
+    font-size: 3vw;
+}
+
+
+.cone {
+    color: black;
+    background: yellow;
+    width: 20vw;
+    height: 10vh;
+}
+
+.cube {
+    color: black;
+    background: aqua;
+    width: 20vw;
+    height: 10vh;
+}
+
+#t {
+    width: 3vw;
+    height: 3vh;
+    font-size: 0.8vw;
+}
+
+#l {
+    width: 50vw;
+    height: 30vh;
+    font-size: 8vw;
+}
+
+table,
+tr,
+td,
+th {
+    border: 1px solid black;
+}
