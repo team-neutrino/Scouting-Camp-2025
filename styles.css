@@ -1,29 +1,59 @@
-    button {
-        color:rgb(55, 222, 9);
-        background-color: black;
-        border-color:rgb(96, 231, 7);
-    }
-    p {
-        color: rgb(240, 218, 11);
-        font-size: 5vh;
-        font-size: 5vw;
-    }
-    .thing {
-        font-size: 20vh;
-        color: dimgray;
-    }
-    #Choaclohate {
-        font-size: 10vw;
-        font-size: 10vh;
-        color: rgb(131, 84, 15);
-    }
+button {
+    width: 75%;
+    height: 75%;
+    background-image: linear-gradient(rgb(255, 0, 255), rgb(125, 0, 125));
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
 
-    table, th, tr{
-        border: 1px solid black;
-    }
-    td {
-        color: purple;
-        font-size: 2vh;
-        font-size: 2vw;
-        border: 1px dashed grey;
-    }
+body {
+    background-image: radial-gradient(rgb(75,0,75), rgb(255,0,255));
+}
+
+button:hover {
+    background-image: linear-gradient(rgb(125, 0, 125), rgb(75, 0, 75));
+}
+
+button:active {
+    background-image: linear-gradient(rgb(175, 0, 175), rgb(125, 0, 125));
+}
+
+.taco {
+    background-color: rgb(125, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+    font-size: xx-large;
+}
+
+.terminal {
+    resize: none;
+    background-image: linear-gradient(rgb(0, 50, 0), rgb(0,0,0));
+    width: 90%;
+    height: 90%;
+    color:rgb(0, 255, 0);
+    vertical-align: text-bottom;
+    font-size: large;
+}
+
+#L1 {
+    color: rgb(0, 255, 0)
+}
+
+table {
+    border: 5px solid black;
+    width: 97vw;
+    height: 97vh;
+    text-align: center;
+}
+
+th, td, tr {
+    border: 5px solid hotpink;
+    height: 25%
+}
+
+.funny {
+    width: 25%;
+}
+
+.header {
+    width: 50%;
+}
