@@ -1,40 +1,40 @@
 button {
-    font-size: 3vw;
-}
-
-.cone {
-    color: black;
-    background: yellow;
+    font-size: 1vw;
     width: 20vw;
     height: 10vh;
+    background-color: greenyellow;
+}
+
+table{
+    border: 1px solid black;
+    width: 97vw;
+    height: 97vh;
+    text-align: center;
+}
+
+.tallButton {
+    height: 20vh;
+}
+
+#leave {
+    background-color: blue;
+    color: white;
+}
+
+#back {
+    background-color: purple;
+}
+
+#next {
+    background-color: purple;
 }
 
 
-.cube {
-    color: black;
-    background: aqua;
-    width: 20vw;
-    height: 10vh;
-}
 
-
-#t {
-    width: 3vw;
-    height: 3vh;
-    font-size: 0.8vw;
-}
-
-
-#l {
-    width: 50vw;
-    height: 30vh;
-    font-size: 8vw;
-}
-
-
-table,
 tr,
 td,
 th {
     border: 1px solid black;
+    width: 10%;
+    height: 10%;
 }
