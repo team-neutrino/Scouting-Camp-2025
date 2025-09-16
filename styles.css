@@ -4,9 +4,21 @@ button {
     height: 5vw;
 }
 
-table,
 tr,
 td,
 th {
     border: 1px solid black;
+    width: 10%;
+    height: 10%;
+}
+
+table {
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+#terminal {
+    height: 30vh;
+    width: 20vh;
 }
