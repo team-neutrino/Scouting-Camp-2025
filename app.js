@@ -1,3 +1,5 @@
+var actionList = [0, 0, 0, 0, 0]
+
 function changeText(id) {
     // change the id in the parantheses
     const headingElement = document.getElementById(id);
@@ -10,12 +12,16 @@ function changeText(id) {
 }
 
 function clickButton(id, action) {
-    var actionList = []
-
-    actionList.push(action)
-
     const element = document.getElementById("terminal")
-    console.log("here")
 
-    element.textContent = actionList;
+    element.value += action
+
+    element.value += "\n"
+    addToCompressList(id)
+}
+
+function addToCompressList(id) {
+    actionList[id] += 1
+
+    console.log(actionList)
 }
